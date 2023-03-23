@@ -37,8 +37,8 @@
             <span id="errorbox" ng-show="myForm.lastname.$touched && myForm.lastname.$invalid">Required</span>
         </div>
 
-            <form action="">
-          <input type="birthday" id="birthday" name="birthday" placeholder="Birthday">
+             <form action="">
+          <input type="birthday"ng-model="birthday" id="birthday" name="birthday" placeholder="Birthday" class="form-control" required>
             <span id="errorbox" ng-show="myForm.birthday.$touched && myForm.birthday.$invalid">Required</span>
         </form>
 
